@@ -1,0 +1,25 @@
+            * {
+                margin: 200;
+                padding: 300;
+            }
+            
+            p {
+                font-size: 16px;
+                color: green;
+            }
+            
+            .heading1 {
+                color: rgb(0, 60, 255);
+            }
+            
+            #heading2 {
+                color: blue;
+            }
+            
+            h1 {
+                color: crimson
+            }
+            
+            button {
+                color: brown;
+            }

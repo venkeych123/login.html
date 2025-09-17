@@ -1,0 +1,79 @@
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: arial, sans-serif;
+            background-image: url("https://t4.ftcdn.net/jpg/01/19/11/55/360_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.jpg");
+            margin: 0;
+            padding: 0;
+        }
+        
+        .login-container {
+            width: 300px;
+            height: 400px;
+            background-color: #e9c3f0;
+            box-shadow: #09c0f8;
+            max-width: 359px;
+            max-height: 300px;
+            box-shadow: #ccc;
+            border-radius: 20px;
+        }
+        
+        .login-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .input-group {
+            margin-bottom: 15px;
+        }
+        
+        .input-group label {
+            display: block;
+            margin-bottom: 15px;
+        }
+        
+        .input-group input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 30px;
+        }
+        
+        .input-group input[type="submit"]:hover {
+            background-color: #14a5ee;
+        }
+        
+        .error-message {
+            color: red;
+            font-size: 12px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+
+        <form action="login.php" method="post">
+            <div class="input-group">
+                <label for="username"> Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="input-group">
+                <input type="submit" value="login"> </div>
+            <div class="error-message">
+
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

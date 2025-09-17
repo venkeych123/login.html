@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    min-height: 100hv;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: image url(\4bf6c1048aaf2d6c34c4df624340cec7.jpg);
+    background-position: center;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px, 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo {
+    font-size: 2em;
+    color: #ffff;
+    user-select: none;
+    font-weight: 900 !important;
+}
+
+.input-box {
+    margin: 20px;
+    position: relative;
+}
+
+.input-box input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 12px 12px 12px 45px;
+    border-radius: 99px;
+    outline: 3px solid transparent;
+    transition: 0.3s;
+    font-size: 17px;
+    color: rgb(19, 18, 18);
+    font-weight: 600;
+}
+
+.input-box input::placeholder {
+    color: rgb(3, 175, 243);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.input-box input:focus {
+    outline: 3px solid rgba(205, 18, 18, 0.3);
+}
+
+.input-box input::-ms-reveal {
+    filter: invert(100%);
+}
+
+.input-box i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: rgb(197, 8, 181)
+}
+
+.rember-forgot-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+.rember-forgot-box label {
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.rember-forgot-box a {
+    color: white;
+    text-decoration: none;
+}
+
+.rember-forgot-box a:hover {
+    text-decoration: underline;
+}
